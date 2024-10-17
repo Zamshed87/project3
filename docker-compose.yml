@@ -3,7 +3,9 @@ version: '3.8'
 
 services:
   web:
-    build: .
     image: dhaka:latest
+    container_name: happy_ganguly
     ports:
       - "80:80"
+
+
