@@ -1,0 +1,10 @@
+# grafana/docker-compose.yml
+version: '3.8'
+
+services:
+  grafana:
+    image: grafana/grafana
+    ports:
+      - "3060:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin
